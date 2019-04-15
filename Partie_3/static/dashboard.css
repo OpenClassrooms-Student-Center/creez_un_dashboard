@@ -1,0 +1,171 @@
+      html {
+          height: 100%;
+      }
+
+      html, body, div, span, h1, h2, h3, h4, h5, h6, p {
+          margin: 0;
+          padding: 0;
+          border: 0;
+          outline: 0;
+          font-size: 100%;
+          font: inherit;
+          vertical-align: baseline;
+          background: transparent;
+      }
+
+      body {
+          position: relative;
+          font-family: "proxima nova", Arial, Helvetica, sans-serif;
+          font-size: 14px;
+          font-weight: normal;
+          line-height: 1.4;
+          background-color: #f8f8f8;
+          min-width: 300px;
+          min-height: 100%;
+          color: #666;
+          overflow: auto;
+          display: inline-block;
+          width: 100%;
+      }
+
+      a:hover {
+        font-weight: bold;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: None;
+      }
+
+      .content {
+          min-height: 100%;
+          min-width: 300px;
+          display: inline-block;
+          width: 100%;
+      }
+
+      header {
+          position: relative;
+          margin-bottom: 10px;
+          min-width: 300px;
+      }
+
+      .header-background {
+          background-color: #fff;
+          opacity: 0.9;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          box-shadow: 0 0 2px 1px rgba(175, 175, 175, 0.3);
+      }
+
+      .title {
+          position: relative;
+          width: 400px;
+          min-width: 300px;
+          margin: 0 auto;
+          padding: 15px 0;
+          box-sizing: border-box;
+          text-align: center;
+      }
+
+      h1 {
+          font-size: 24px;
+          font-weight: lighter;
+          line-height: 26px;
+      }
+
+      .chart {
+        height : 310px;
+        width : 550px;
+        margin: 5px auto 0 auto;
+        padding : 5px;
+        border : 1px #CCC solid;
+        background-color: #fcfcfc;
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      #actu{
+        width:550px;
+        height: 625px;
+      }
+
+      @media (min-width: 1200px) {
+        #actu{
+          width:1115px;
+          height: inherit;
+        }
+      }
+
+      #nuage, #listeArticles {
+        width : 550px;
+        height : 310px;
+        display: inline-block;
+        vertical-align: top;
+        overflow: scroll;
+      }
+
+      #tableauArticles table {
+        margin-top:7px;
+        margin-left:5px;
+        border-collapse: collapse;
+        border: solid 1px #CCC;
+        width:100%;
+        color: #333;
+      }
+
+      #tableauArticles td {
+        padding : 5px;
+      } 
+
+      #tableauArticles tr:nth-child(odd) {
+        background-color: #EEE;
+      }
+
+      #tableauArticles tr {
+        border: solid 1px #DDD;
+      }
+
+      #tableauArticles .newspaper{
+        width:130px;
+      }
+
+      .chartContainer{
+        margin: 0 auto;
+      }
+
+      @media (min-width: 600px) {
+        .chartContainer{
+          width:570px;
+        }
+      }
+
+      @media (min-width: 1200px) {
+        .chartContainer{
+          width:1140px;
+        }
+      }
+
+      @media (min-width: 1800px) {
+        .chartContainer{
+          width:1710px;
+        }
+      }
+
+      .chartTitle {
+        margin: 2px auto;
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+        color:#333;
+        font-size:18px;
+      }
+
+      .domain {
+        fill : None;
+        stroke : grey;
+        shape-rendering: crispEdges;
+      }
